@@ -1,0 +1,52 @@
+* {
+box-sizing: border-box;
+margin: 0;padding: 0;
+}
+.grid-container {
+margin: auto auto;padding: 10px;background-color: maroon;border: 5px solid white;color: white;font-family: Georgia;
+height: 95vh;
+display: grid;
+grid-auto-rows:minmax(200px,auto);
+grid-template-columns: 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr 1fr;
+gap: 10px;
+}
+.griditems-A {
+border: 2px solid teal;background-color:thistle;
+}
+.griditems-B {
+border: 2px solid white;background-color:olivedrab;
+grid-row-start: 1;
+grid-row-end: 4;
+}
+.griditems-C {
+border: 2px solid tan;background-color:chocolate;
+}
+.griditems-D {
+border: 2px solid palevioletred;background-color: purple;
+}
+.griditems-E {
+border: 2px solid palegreen;background-color: teal;
+}
+.griditems-F {
+border: 2px solid burlywood;background-color: tomato;
+grid-column-start:2 ;
+grid-column-end:4 ;
+}
+.griditems-G {
+border: 2px solid steelblue;background-color: aqua;
+grid-column:1/3 ;
+grid-row:4/5 ;
+}
+.griditems-H {
+border: 2px solid lime;background-color: tan;
+grid-column:3/4;
+grid-row:4/6;
+}
+.griditems-I {
+border: 2px solid crimson;background-color: steelblue;
+}
+
+
+
+
